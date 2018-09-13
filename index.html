@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard Mylohr</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link href="https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+</head>
+<body>
+    <div id="mylohr-dashboard">
+        <div class="dashboard-header">
+            <ul>
+                <li>
+                    <img src="https://image.ibb.co/cPqJ4p/my_Lohr_transparent.png" alt="">
+                </li>
+                <li>
+                    <span class="subtitle-header">Your Gateway to Efficiemcy</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ion ion-md-notifications"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ion ion-md-flag"></i>
+                    </a>
+                </li>
+                <li>
+                    <div class="ui search">
+                        <div class="ui icon input">
+                            <input class="prompt" type="text" placeholder="Recherche">
+                            <i class="ion ion-md-search icon"></i>
+                        </div>
+                        <div class="results"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="separator-header">
+                        <a href="#">
+                            <i class="ion ion-md-apps"></i>
+                        </a>
+                        <a href="#">
+                            <i class="ion ion-md-people"></i>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="ion ion-ios-chatbubbles"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ion ion-ios-settings"></i>
+                    </a>
+                    <a href="#">
+                        <i class="ion ion-md-exit"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="dashboard-body">
+            <!-- Ini Sidemenunya -->
+            <div class="sidemenu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="ion ion-md-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="ui accordion mylohr-accordion">
+                            <div class="active title">
+                                <i class="ion ion-md-apps icon"></i>
+                                <span>App</span>
+                                <i class="ion ion-md-arrow-dropdown"></i>
+                            </div>
+                            <ul class="active content">
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>my Fleet</span>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">
+                                        <i class="ion ion-md-arrow-dropright"></i>
+                                        <span>Inteligent Car-Carrier</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>e-Gage</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>After Sales Network</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Spare Parts</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Maintenance Contract</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Imbricator</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Carrier Range</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Rental</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>AfTraining Center</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="">&nbsp;</i>
+                                        <span>Feedback</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion ion-md-people"></i>
+                            <span>Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion ion-ios-settings"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion ion-md-log-out"></i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Ini Main Dashboardnya -->
+            <div class="main">
+                <!-- Ini Main Headernya -->
+                <div class="main__header">
+                    <div class="title">
+                        <h2>Dashboard</h2>
+                        <div class="breadcrumb">
+                            <i class="ion ion-md-home"></i>
+                            <span class="active">myLohr</span>
+                            <span> / Dashboard</span>
+                        </div>
+                    </div>
+                    <!-- <div class="web-stat">
+                        <div class="page-view">
+                            <img src="">
+                            <p>Page Views</p>
+                        </div>
+                        <div class="visitor">
+                            <img src="">
+                            <p>Visitor</p>
+                        </div>
+                    </div> -->
+                </div>
+                <!-- Ini Main Bodynya -->
+                <div class="main__body">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_My_Fleet.png" alt="my Fleet">
+                                <div class="wrap-text">
+                                    <span>my Fleet</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Intelligent_Car-Carrier.png" alt="Inteligent Car-Carrier">
+                                <div class="wrap-text">
+                                    <span>Inteligent Car-Carrier</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_e-Gage.png" alt="e-Gage">
+                                <div class="wrap-text">
+                                    <span>e-Gage</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730599/dashboard%20MyLohr/MYLOHR_Appli_After_Sales_Network.png" alt="After Sales Network">
+                                <div class="wrap-text">
+                                    <span>After Sales Network</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Spare_Parts.png" alt="Spare Parts">
+                                <div class="wrap-text">
+                                    <span>Spare Parts</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Maintenance_Contract.png" alt="Maintenance Contract">
+                                <div class="wrap-text">
+                                    <span>Maintenance Contract</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Imbricator.png" alt="Imbricator">
+                                <div class="wrap-text">
+                                    <span>Imbricator</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730599/dashboard%20MyLohr/MYLOHR_Appli_Carrier_Range.png" alt="Carrier Range">
+                                <div class="wrap-text">
+                                    <span>Carrier Range</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Rental.png" alt="Rental">
+                                <div class="wrap-text">
+                                    <span>Rental</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730599/dashboard%20MyLohr/MYLOHR_Appli_Training_Center.png" alt="Training Center">
+                                <div class="wrap-text">
+                                    <span>Training Center</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1536730598/dashboard%20MyLohr/MYLOHR_Appli_Feedback.png" alt="Feedback">
+                                <div class="wrap-text">
+                                    <span>Feedback</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
+
+    <script>
+        $('.ui.accordion').accordion();
+    </script>
+</body>
+</html>
