@@ -4,36 +4,36 @@
     background: #fff;
     width: 100%;
     position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
     box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1); }
     #mylohr-dashboard .dashboard-header ul {
+      width: 100%;
       padding: 10px 20px;
       margin-bottom: 0;
       list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
       margin-top: 0; }
       #mylohr-dashboard .dashboard-header ul li {
         display: inline-block;
         padding: 0 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(1) {
-          width: 15%; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(2) {
-          width: 20%; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(3) {
-          width: 10%;
-          justify-content: flex-end; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(4) {
-          width: 35%; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(5) {
-          width: 10%;
-          justify-content: center; }
-          #mylohr-dashboard .dashboard-header ul li:nth-of-type(5) a:nth-of-type(1) i {
-            color: #d00000; }
-        #mylohr-dashboard .dashboard-header ul li:nth-of-type(6) {
-          width: 10%;
-          justify-content: center; }
         #mylohr-dashboard .dashboard-header ul li img {
           width: 140px; }
         #mylohr-dashboard .dashboard-header ul li .ui.search {
@@ -61,141 +61,122 @@
             color: #000000;
             font-size: 20px; }
   #mylohr-dashboard .dashboard-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    background: #f9f9f9; }
-    #mylohr-dashboard .dashboard-body .sidemenu {
-      width: 20%;
-      padding-left: 10px;
-      margin-top: 40px; }
-      #mylohr-dashboard .dashboard-body .sidemenu ul {
-        width: 85%; }
-        #mylohr-dashboard .dashboard-body .sidemenu ul li {
-          margin-bottom: 17px; }
-          #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion {
-            position: relative; }
-            #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .title {
-              width: 100%;
-              background: #fff;
-              border-radius: 100px;
-              display: flex;
-              align-items: center;
-              padding: 9px 15px;
-              position: relative;
-              z-index: 1;
-              box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1); }
-              #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .title .ion-md-arrow-dropdown {
-                position: absolute;
-                right: 5px; }
-            #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content {
-              width: 100%;
-              background: #f2f2f2;
-              padding: 17px 0;
-              padding-left: 10px;
-              border-radius: 5px; }
-              #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content li {
-                margin-bottom: 7px; }
-                #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content li.active span {
-                  color: #d00000 !important; }
-              #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content i {
-                margin-right: 10px; }
-              #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content span {
-                color: #808080; }
-              #mylohr-dashboard .dashboard-body .sidemenu ul li .mylohr-accordion .content::before {
-                content: "";
-                width: 100%;
-                height: 25px;
-                background: #f2f2f2;
-                position: absolute;
-                top: 17px;
-                left: 0; }
-          #mylohr-dashboard .dashboard-body .sidemenu ul li a {
-            display: flex;
-            align-items: center;
-            padding: 7px 15px; }
-          #mylohr-dashboard .dashboard-body .sidemenu ul li i {
-            width: fit-content;
-            color: #d00000;
-            font-size: 21px;
-            margin-right: 15px; }
-          #mylohr-dashboard .dashboard-body .sidemenu ul li span {
-            color: #4a4a4a;
-            font-size: 14px; }
+    background: #f9f9f9;
+    min-height: 100vh; }
     #mylohr-dashboard .dashboard-body .main {
       width: 80%;
+      margin: auto;
       margin-top: 40px; }
-      #mylohr-dashboard .dashboard-body .main__header .title h2 {
-        color: #4a4a4a; }
-      #mylohr-dashboard .dashboard-body .main__header .title .breadcrumb i {
-        color: #d00000; }
-      #mylohr-dashboard .dashboard-body .main__header .title .breadcrumb .active {
-        color: #d00000; }
-      #mylohr-dashboard .dashboard-body .main__header .title .breadcrumb span {
-        color: #4a4a4a; }
-      #mylohr-dashboard .dashboard-body .main__body {
-        height: 100vh; }
-        #mylohr-dashboard .dashboard-body .main__body ul li {
-          width: 30%;
-          padding: 20px;
-          display: inline-flex; }
-        #mylohr-dashboard .dashboard-body .main__body ul a {
-          transition: .3s all ease-in-out;
-          width: 100%;
-          background: #fff;
-          border-radius: 100px;
-          display: flex;
-          align-items: center;
-          padding: 12px;
-          position: relative;
-          overflow: hidden;
-          box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1); }
-        #mylohr-dashboard .dashboard-body .main__body ul a:hover {
-          transform: scale(1.2);
-          padding: 2px; }
-          #mylohr-dashboard .dashboard-body .main__body ul a:hover img {
-            transform: scale(1.05); }
-          #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
-            background-color: #f1f1f1;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            right: 27px;
-            top: 13px;
-            padding-right: 25px;
-            border-top-right-radius: 100px;
-            border-bottom-right-radius: 100px;
-            transform: scale(1.2); }
-        #mylohr-dashboard .dashboard-body .main__body ul img {
-          width: 100px;
-          height: 100px;
-          margin-right: 10px;
-          position: relative;
-          z-index: 1;
-          background: white;
-          border-radius: 100px;
-          padding: 5px; }
-        #mylohr-dashboard .dashboard-body .main__body ul .wrap-text {
-          transition: .3s all ease-in-out;
-          width: 75%;
-          height: 75%;
-          background-color: #fff;
+      #mylohr-dashboard .dashboard-body .main__body ul li {
+        width: 355px;
+        padding: 20px;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex; }
+      #mylohr-dashboard .dashboard-body .main__body ul a {
+        -webkit-transition: .3s all ease-in-out;
+        transition: .3s all ease-in-out;
+        width: 100%;
+        background: #fff;
+        border-radius: 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 12px;
+        position: relative;
+        overflow: hidden;
+        -webkit-box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
+        box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1); }
+      #mylohr-dashboard .dashboard-body .main__body ul a:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        padding: 2px; }
+        #mylohr-dashboard .dashboard-body .main__body ul a:hover img {
+          -webkit-transform: scale(1.05);
+          transform: scale(1.05); }
+        #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
+          background-color: #f1f1f1;
           position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: flex-end;
-          right: 13px;
+          right: 29px;
           top: 13px;
-          padding-right: 25px;
-          border-top-right-radius: 100px;
-          border-bottom-right-radius: 100px; }
-        #mylohr-dashboard .dashboard-body .main__body ul span {
-          color: #4a4a4a;
-          font-weight: bold;
-          font-size: 15px;
-          width: 95px; }
+          -webkit-transform: scale(1.2);
+          transform: scale(1.2); }
+      #mylohr-dashboard .dashboard-body .main__body ul img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+        position: relative;
+        z-index: 1;
+        background: white;
+        border-radius: 100px;
+        padding: 5px; }
+      #mylohr-dashboard .dashboard-body .main__body ul .wrap-text {
+        -webkit-transition: .3s all ease-in-out;
+        transition: .3s all ease-in-out;
+        width: 75%;
+        height: 75%;
+        background-color: #fff;
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        right: 13px;
+        top: 13px;
+        padding-left: 80px;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px; }
+      #mylohr-dashboard .dashboard-body .main__body ul span {
+        color: #4a4a4a;
+        font-weight: bold;
+        font-size: 15px;
+        width: 95px; }
   #mylohr-dashboard ul {
     list-style-type: none;
     padding-left: 0;
     margin-top: 0; }
   #mylohr-dashboard a {
     text-decoration: none; }
+
+@media screen and (max-width: 1024px) {
+  #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
+    right: 32px; }
+  #mylohr-dashboard .dashboard-body .main__body ul li {
+    width: 400px; }
+    #mylohr-dashboard .dashboard-body .main__body ul li span {
+      right: 0;
+      left: 80px;
+      width: auto; } }
+@media screen and (max-width: 768px) {
+  #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
+    right: 26px; }
+  #mylohr-dashboard .dashboard-body .main__body ul li {
+    width: 49%;
+    padding: 20px 15px; }
+    #mylohr-dashboard .dashboard-body .main__body ul li span {
+      left: 83px; } }
+@media screen and (max-width: 581px) {
+  #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
+    right: 31px; }
+  #mylohr-dashboard .dashboard-body .main__body ul li {
+    width: 100%;
+    padding: 20px 0px; }
+    #mylohr-dashboard .dashboard-body .main__body ul li span {
+      right: 45px; } }
+@media screen and (max-width: 400px) {
+  #mylohr-dashboard .dashboard-body .main__body ul a:hover .wrap-text {
+    right: 28px; }
+  #mylohr-dashboard .dashboard-body .main__body ul li {
+    width: 100%;
+    padding: 20px 0px; }
+    #mylohr-dashboard .dashboard-body .main__body ul li span {
+      right: 45px;
+      width: 90%; } }

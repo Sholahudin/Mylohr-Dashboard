@@ -1,0 +1,179 @@
+#mylohr-dashboard{
+    font-family: 'Open Sans', sans-serif;
+    .dashboard-header{
+        background: #fff;
+        width: 100%;
+        position: relative;
+        -webkit-box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
+                box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
+        ul{
+            width: 100%;
+            padding: 10px 20px;
+            margin-bottom: 0;
+            list-style-type: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            margin-top: 0;
+            li{
+                display: inline-block;
+                padding: 0 10px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
+                img{
+                    width: 140px;
+                }
+                .ui.search{
+                    width: 100%;
+                    .ui.input{
+                        width: 100%;
+                        .prompt{
+                            background-color: #f8f8f8;
+                            border: solid 1px #eaeaea;
+                            color: #9b9b9b;
+                        }
+                        i{
+                            color: #9b9b9b;
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .subtitle-header{
+                    font-style: italic;
+                    font-size: 13px;
+                    color: #d00000;
+                }
+                .separator-header{
+                    border-right: 1px solid #e8e8e8;
+                    padding-right: 27px;
+                }
+                a{
+                    margin: 10px;
+                    text-decoration: none;
+                    i{
+                        color: #000000;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .dashboard-body{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background:#f9f9f9;
+        min-height: 100vh;
+        .main{
+            width: 80%;
+            margin: auto;
+            margin-top: 40px;
+            &__body{
+                ul{
+                    li{
+                        width: 355px;
+                        padding: 20px;
+                        display: -webkit-inline-box;
+                        display: -ms-inline-flexbox;
+                        display: inline-flex;
+                    }
+                    a{
+                        -webkit-transition: .3s all ease-in-out;
+                        transition: .3s all ease-in-out;
+                        width: 100%;
+                        background: #fff;
+                        border-radius: 100px;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        padding: 12px;
+                        position: relative;
+                        overflow: hidden;
+                        -webkit-box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
+                                box-shadow: 0 0 10px 0 rgba(215, 222, 227, 0.39), 0 13px 45px 0 rgba(51, 59, 69, 0.1);
+                    }
+                    a:hover{
+                        -webkit-transform: scale(1.2);
+                                transform: scale(1.2);
+                        padding: 2px;
+                        img{
+                            -webkit-transform: scale(1.05);
+                                    transform: scale(1.05);
+                        }
+                        .wrap-text{
+                            background-color: #f1f1f1;
+                            position: absolute;
+                            right: 29px;
+                            top: 13px;
+                            -webkit-transform: scale(1.2);
+                                    transform: scale(1.2);
+                        }
+                    }
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        margin-right: 10px;
+                        position: relative;
+                        z-index: 1;
+                        background: white;
+                        border-radius: 100px;
+                        padding: 5px;
+                    }
+                    .wrap-text{
+                        -webkit-transition: .3s all ease-in-out;
+                        transition: .3s all ease-in-out;
+                        width: 75%;
+                        height: 75%;
+                        background-color: #fff;
+                        position: absolute;
+                        display: -webkit-box;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-align: center;
+                            -ms-flex-align: center;
+                                align-items: center;
+                        right: 13px;
+                        top: 13px;
+                        padding-left: 80px;
+                        border-top-right-radius: 100px;
+                        border-bottom-right-radius: 100px;
+                    }
+                    span{
+                        color: #4a4a4a;
+                        font-weight: bold;
+                        font-size: 15px;
+                        width: 95px;
+                        // position: absolute;
+                        // right: 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+}

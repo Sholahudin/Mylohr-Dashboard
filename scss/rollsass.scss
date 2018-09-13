@@ -1,0 +1,11 @@
+@mixin roll-max-screen($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin roll-min-screen($width) {
+    @media screen and(min-width: $width) {
+        @content;
+    }
+}

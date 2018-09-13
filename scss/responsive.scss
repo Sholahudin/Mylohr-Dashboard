@@ -1,0 +1,74 @@
+@mixin main_body_xs() {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 28px;
+            }
+        }
+        li{
+            width: 100%;
+            padding: 20px 0px;
+
+            span{
+                right: 45px;
+                width: 90%;
+            }
+        }
+    }
+}
+
+@mixin main_body_s() {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 31px;
+            }
+        }
+        li{
+            width: 100%;
+            padding: 20px 0px;
+
+            span{
+                right: 45px;
+            }
+        }
+    }
+}
+
+@mixin main_body_ms() {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 26px;
+            }
+        }
+        li{
+            width: 49%;
+            padding: 20px 15px;
+
+            span{
+                // right: 30px;
+                left: 83px
+            }
+        }
+    }
+}
+
+@mixin main_body_m() {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 32px;
+            }
+        }
+        li{
+            width: 400px;
+
+            span{
+                right: 0;
+                left: 80px;
+                width: auto;
+            }
+        }
+    }
+}
