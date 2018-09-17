@@ -9,17 +9,22 @@
 }
 
 @include roll-max-screen(768px){
+    @include main_body_s();
     @include main_body_ms();
 }
 
 @include roll-max-screen(581px) {
-    @include main_body_s();
+    @include main_body_500();
 }
 
-@include roll-max-screen(481px){}
+@include roll-max-screen(481px){
+}
 
 @include roll-max-screen(400px){
+    @include main_body_xxs();
     @include main_body_xs();
 }
 
-@include roll-max-screen(300px){}
+@include roll-max-screen(300px){
+    @include font_and_image_xxs();
+}

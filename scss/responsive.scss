@@ -1,8 +1,8 @@
-@mixin main_body_xs() {
+@mixin main_body_xxs() {
     #mylohr-dashboard .dashboard-body .main__body ul {
         a:hover{
             .wrap-text{
-                right: 28px;
+                top: 12.5%;
             }
         }
         li{
@@ -10,8 +10,61 @@
             padding: 20px 0px;
 
             span{
-                right: 45px;
-                width: 90%;
+                margin-left: 43%;
+                font-size: 15px;
+            }
+        }
+        img{
+            width: 90px;
+            height: 90px;
+        }
+    }
+}
+
+@mixin font_and_image_xxs {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 9.5%;
+            }
+        }
+        li{
+            span{
+                width: 50%;
+                margin-left: 43%;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@mixin main_body_xs() {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        a:hover{
+            .wrap-text{
+                right: 8.5%;
+            }
+        }
+        li{
+            span{
+                width: 55%;
+                margin-left: 35%;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@mixin main_body_500 {
+    #mylohr-dashboard .dashboard-body .main__body ul {
+        li{
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            span{
+                width: 50%;
+                margin-left: 27%;
+                font-size: 18px;
             }
         }
     }
@@ -21,7 +74,7 @@
     #mylohr-dashboard .dashboard-body .main__body ul {
         a:hover{
             .wrap-text{
-                right: 31px;
+                right: 8.5%;
             }
         }
         li{
@@ -29,7 +82,9 @@
             padding: 20px 0px;
 
             span{
-                right: 45px;
+                font-size: 18px;
+                width: 50%;
+                margin-left: 27%;
             }
         }
     }
@@ -39,16 +94,19 @@
     #mylohr-dashboard .dashboard-body .main__body ul {
         a:hover{
             .wrap-text{
-                right: 26px;
+                right: 8%;
             }
         }
         li{
-            width: 49%;
-            padding: 20px 15px;
-
+            width: 100%;
+            padding: 20px 0px;
+            .wrap-text{
+                width: 71%;
+            }
             span{
-                // right: 30px;
-                left: 83px
+                width: 54%;
+                margin-left: 20%;
+                font-size: 16px;
             }
         }
     }
@@ -58,16 +116,16 @@
     #mylohr-dashboard .dashboard-body .main__body ul {
         a:hover{
             .wrap-text{
-                right: 32px;
+                right: 8.5%;
             }
         }
         li{
-            width: 400px;
+            width: 43%;
 
             span{
-                right: 0;
-                left: 80px;
-                width: auto;
+                width: 55%;
+                margin-left: 34%;
+                font-size: 14px;
             }
         }
     }
